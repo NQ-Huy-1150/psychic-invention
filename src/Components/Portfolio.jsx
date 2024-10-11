@@ -72,7 +72,7 @@ const Portfolio = () => {
             alt={imageAltText}
           />
         </div>
-        <div className="container">
+        <div className="container" style={{ animation: "1s ease-out 0s 1 slideInLeft" }}>
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">

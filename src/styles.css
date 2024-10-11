@@ -13,13 +13,30 @@ body {
   padding: 0;
   width: 100%;
 }
-
+/* add a smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
 div#main {
   display: flex;
   flex-direction: column;
   width: 100vw;
 }
+/*add a slide In Left animation */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
 
+.slide-in-left {
+  animation: slideInLeft 0.5s ease-out forwards;
+}
 section {
   position: relative;
   width: 100vw;

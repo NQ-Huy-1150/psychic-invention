@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://NQ-Huy-1150.github.com/microsoft/PSYCHIC-INVENTION",
+  "homepage": "https://NQ-Huy-1150.github.io/PSYCHIC-INVENTION",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://NQ-Huy-1150.github.io/PSYCHIC-INVENTION'",
+    "build-gh": "parcel build --public-url ./",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },

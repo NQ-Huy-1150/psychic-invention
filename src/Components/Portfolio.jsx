@@ -32,9 +32,8 @@ const imageAltText = "desktop with books and laptop";
 const projectList = [
   {
     title: "Github, your best site to learn something new",
-    description:
-      "GitHub: Let's build from here",
-    url: "https:github.com",
+    description: "Collaboration to create a beginner friendly....",
+    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
   },
   {
     title: "Web Development for Beginners",

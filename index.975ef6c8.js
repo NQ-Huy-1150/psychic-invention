@@ -28827,6 +28827,9 @@ const Portfolio = ()=>{
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                         className: "container",
+                        style: {
+                            animation: "1s ease-out 0s 1 slideInLeft"
+                        },
                         children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                                 className: "box",
                                 children: [
